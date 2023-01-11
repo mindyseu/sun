@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	font-family: 'Inter', sans-serif;
+	background-color: red;
+	color: white;
+	margin: 20px;
+}
+
+a {
+	color: white;
+	/* text-decoration: none; */
+}
+
+a:hover {
+	color: black;
+	background-color: white;
+}
+
+/* .container {
+	height: 100vh;
+	width: 100vw;
+} */
+
+.container {
+	display: flex;
+  
+	/*this centers the text horizontally*/
+	justify-content: center;
+  
+	/*this centers the text vertically*/
+	align-items: center;
+	height: 100vh;
+}
+
+p {
+	text-align: center;
+	padding-top: 25%;
+	/* padding: 0 auto; */
+}
