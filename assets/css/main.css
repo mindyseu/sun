@@ -5,7 +5,7 @@
 
 html,body {
 	font-family: 'Inter', sans-serif;
-	background-color: red;
+	background-color: #E71A1A;
 	color: white;
 	margin: 20px;
 }
@@ -20,11 +20,6 @@ a:hover {
 	background-color: white;
 }
 
-/* .container {
-	height: 100vh;
-	width: 100vw;
-} */
-
 .container {
 	display: flex;
   
@@ -33,11 +28,10 @@ a:hover {
   
 	/*this centers the text vertically*/
 	align-items: center;
-	height: 100vh;
+	height: 90vh;
 }
 
 p {
 	text-align: center;
-	padding-top: 25%;
-	/* padding: 0 auto; */
+	margin-top: 25%;
 }
